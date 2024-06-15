@@ -1,14 +1,9 @@
+import UserList from "./UserList";
 
-import './App.css'
-import { Counter } from './ReduxToolkit/Feature/Counter/counter'
-
-function App() {
-
+export default function App() {
   return (
     <>
-   <Counter/>
+      <UserList />
     </>
-  )
+  );
 }
-
-export default App
